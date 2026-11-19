@@ -1,0 +1,9 @@
+Needs attention
+
+1. Contact details: the privacy page says to reach Jani through YouTube because I don't have an email for him. A privacy notice should give a proper contact, so please send one. I'd also have someone qualified review both legal pages.
+2. Jani's approval: the posts now say "I", so he needs to read and approve them. The most likely thing he'd want to change is the soup link at the end of the hiking post, which is my paraphrase of a remark in the video.
+3. Khao Soi post: it's short of the guideline's first-hand details. It has no measurements, and I still don't know which restaurant won, so it sends readers to the video. Please paste the full Finnish transcript and I'll bring it up to standard.
+4. Addresses and coordinates:
+   - Khao Soi Maesai and Khao-Sō-i show the street but no house number, because Google's format was unclear.
+   - Only three places have map coordinates in the structured data.
+   - The roadside viewpoint still has no map pin.

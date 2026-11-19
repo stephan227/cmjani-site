@@ -1,0 +1,14 @@
+Where each screenshot on the site was taken from the video.
+To change one, tell Claude: "take the screenshot for <place> from second <number> instead".
+This file is private. Only the site/ folder is published.
+
+One line per screenshot:
+Post: <finnish page address> | Video: <video id> | Place: <place> | Second: <seconds> (<minutes:seconds>) | File: <picture>
+
+Post: khao-soi-chiang-mai-kolme-ravintolaa | Video: AE9DJajNUqA | Place: Khao Soi Maesai | Second: 157 (2:37) | File: site/assets/shots/AE9DJajNUqA-khao-soi-maesai.jpg
+Post: khao-soi-chiang-mai-kolme-ravintolaa | Video: AE9DJajNUqA | Place: Muscular Lair | Second: 335 (5:35) | File: site/assets/shots/AE9DJajNUqA-muscular-lair.jpg
+Post: khao-soi-chiang-mai-kolme-ravintolaa | Video: AE9DJajNUqA | Place: Siri Wattana Market | Second: 423 (7:03) | File: site/assets/shots/AE9DJajNUqA-siri-wattana-market.jpg
+Post: khao-soi-chiang-mai-kolme-ravintolaa | Video: AE9DJajNUqA | Place: Khao Soi Mae Manee 2 | Second: 608 (10:08) | File: site/assets/shots/AE9DJajNUqA-khao-soi-mae-manee-2.jpg
+Post: khao-soi-chiang-mai-kolme-ravintolaa | Video: AE9DJajNUqA | Place: Warorot Market | Second: 955 (15:55) | File: site/assets/shots/AE9DJajNUqA-warorot-market.jpg
+Post: khao-soi-chiang-mai-kolme-ravintolaa | Video: AE9DJajNUqA | Place: Khao-Sō-i | Second: 1261 (21:01) | File: site/assets/shots/AE9DJajNUqA-khao-so-i.jpg
+Post: khao-soi-chiang-mai-kolme-ravintolaa | Video: AE9DJajNUqA | Place: Winstons Pool and Sports Club | Second: 1559 (25:59) | File: site/assets/shots/AE9DJajNUqA-winstons-pool-and-sports-club.jpg

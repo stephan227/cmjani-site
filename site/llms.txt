@@ -1,0 +1,30 @@
+# CMJani
+
+> CMJani is the website of Jani, a Finnish special correspondent for Southeast Asia with 20 years of experience, also known as Chiang Mai Jani. Each page covers one YouTube video: the places in it, with addresses and Google Maps links, plus first-hand notes on routes, food and travel. Finnish is the default language, and each page also exists in English.
+
+Key facts:
+
+- YouTube channel: CMJani, https://www.youtube.com/@ChiangMaiJani
+- Topics: Chiang Mai, Thailand, Southeast Asia travel, hiking, motorbike trips and food
+- Languages: Finnish at the site root, English under /en/
+- Prices, opening hours and routes can change. Each post shows the date its details were checked.
+
+## Posts in English
+
+- [Easy or insane? Hiking Monk's Trail and Doi Pui in Chiang Mai](https://cmjani.pages.dev/en/hiking-chiang-mai-monks-trail-doi-pui/): two hikes in Doi Suthep–Pui National Park with measured distance, ascent and time, entrance fees and the best season
+- [Khao soi in Chiang Mai: three restaurants put to the test](https://cmjani.pages.dev/en/khao-soi-chiang-mai-three-restaurants/): Khao Soi Maesai, Khao Soi Mae Manee 2 and Khao-Sō-i compared, with addresses
+
+## Posts in Finnish
+
+- [Viidakko ja vuorenhuippu: Monk's Trail ja Doi Pui Chiang Maissa](https://cmjani.pages.dev/patikointi-chiang-mai-monks-trail-doi-pui/): kaksi patikointireittiä, mittaukset, pääsymaksut ja paras sesonki
+- [Khao Soi Chiang Maissa: kolme ravintolaa testissä](https://cmjani.pages.dev/khao-soi-chiang-mai-kolme-ravintolaa/): kolmen Khao Soi -ravintolan vertailu ja osoitteet
+
+## About
+
+- [Who is Jani?](https://cmjani.pages.dev/en/jani/): Jani and his background
+- [Disclaimer](https://cmjani.pages.dev/en/disclaimer/): the content is for entertainment and general information
+- [Privacy](https://cmjani.pages.dev/en/privacy/): how the site handles data
+
+## Optional
+
+- [Sitemap](https://cmjani.pages.dev/sitemap.xml): every page on the site

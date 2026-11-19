@@ -1,0 +1,281 @@
+<!doctype html>
+<!--
+  FINNISH POST TEMPLATE. Copy to site/{{FI_SLUG}}/index.html and fill in every {{PLACEHOLDER}}.
+  Follow blog_writing_rules_and_guidelines.md and .claude/skills/new-video/SKILL.md. Delete this comment and every other template comment.
+-->
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{SEO_TITLE}} | CMJani</title>
+  <meta name="description" content="{{META_DESCRIPTION}}">
+  <link rel="canonical" href="https://cmjani.pages.dev/{{FI_SLUG}}/">
+  <link rel="alternate" hreflang="fi" href="https://cmjani.pages.dev/{{FI_SLUG}}/">
+  <link rel="alternate" hreflang="en" href="https://cmjani.pages.dev/en/{{EN_SLUG}}/">
+  <link rel="alternate" hreflang="x-default" href="https://cmjani.pages.dev/{{FI_SLUG}}/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="CMJani">
+  <meta property="og:locale" content="fi_FI">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{META_DESCRIPTION}}">
+  <meta property="og:url" content="https://cmjani.pages.dev/{{FI_SLUG}}/">
+  <meta property="og:image" content="https://cmjani.pages.dev/assets/thumbs/{{VIDEO_ID}}.jpg">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="720">
+  <meta property="og:image:alt" content="{{IMAGE_ALT}}">
+  <meta property="article:published_time" content="{{POST_DATE}}">
+  <meta property="article:modified_time" content="{{POST_DATE}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/fonts/barlow-condensed-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/literata-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://cmjani.pages.dev/{{FI_SLUG}}/#article",
+        "headline": "{{TITLE}}",
+        "description": "{{META_DESCRIPTION}}",
+        "url": "https://cmjani.pages.dev/{{FI_SLUG}}/",
+        "mainEntityOfPage": "https://cmjani.pages.dev/{{FI_SLUG}}/",
+        "inLanguage": "fi",
+        "image": "https://cmjani.pages.dev/assets/thumbs/{{VIDEO_ID}}.jpg",
+        "datePublished": "{{POST_DATE}}",
+        "dateModified": "{{POST_DATE}}",
+        "publisher": {
+          "@id": "https://cmjani.pages.dev/#jani"
+        },
+        "video": {
+          "@id": "https://cmjani.pages.dev/{{FI_SLUG}}/#video"
+        },
+        "about": {
+          "@id": "https://cmjani.pages.dev/{{FI_SLUG}}/#places"
+        }
+      },
+      {
+        "@type": "VideoObject",
+        "@id": "https://cmjani.pages.dev/{{FI_SLUG}}/#video",
+        "name": "{{YOUTUBE_TITLE}}",
+        "description": "{{META_DESCRIPTION}}",
+        "thumbnailUrl": "https://cmjani.pages.dev/assets/thumbs/{{VIDEO_ID}}.jpg",
+        "uploadDate": "{{PUBLISH_DATETIME}}",
+        "duration": "{{ISO_DURATION}}",
+        "embedUrl": "https://www.youtube.com/embed/{{VIDEO_ID}}",
+        "url": "https://www.youtube.com/watch?v={{VIDEO_ID}}",
+        "inLanguage": "fi"
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://cmjani.pages.dev/{{FI_SLUG}}/#places",
+        "name": "Paikat videolla",
+        "numberOfItems": 1,
+        "itemListOrder": "https://schema.org/ItemListOrderAscending",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "{{SCHEMA_PLACE_TYPE}}",
+              "name": "{{PLACE_NAME}}",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "{{STREET}}",
+                "addressLocality": "{{CITY}}",
+                "postalCode": "{{POSTCODE}}",
+                "addressCountry": "TH"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Etusivu",
+            "item": "https://cmjani.pages.dev/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "{{SHORT_TITLE}}",
+            "item": "https://cmjani.pages.dev/{{FI_SLUG}}/"
+          }
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://cmjani.pages.dev/#jani",
+        "name": "Jani",
+        "alternateName": [
+          "CMJani",
+          "Chiang Mai Jani"
+        ],
+        "url": "https://cmjani.pages.dev/jani/",
+        "image": "https://cmjani.pages.dev/assets/jani.jpg",
+        "description": "Suomalainen Kaakkois-Aasian erikoistoimittaja, jolla on 20 vuoden kokemus.",
+        "nationality": "Finland",
+        "sameAs": [
+          "https://www.youtube.com/@ChiangMaiJani"
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#paikat">Siirry paikkoihin</a>
+
+  <header class="band band--post">
+    <div class="wrap">
+      <div class="topbar">
+        <a class="wordmark" href="/">CMJani</a>
+        <a class="lang" href="/en/{{EN_SLUG}}/" hreflang="en" lang="en">In English</a>
+      </div>
+      <nav class="crumbs" aria-label="Murupolku">
+        <ol>
+          <li><a href="/">Etusivu</a></li>
+          <li aria-current="page">{{SHORT_TITLE}}</li>
+        </ol>
+      </nav>
+      <h1>{{TITLE}}</h1>
+      <p class="lede">{{ONE_LINE_SUMMARY}}</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <a class="video" href="https://www.youtube.com/watch?v={{VIDEO_ID}}" data-id="{{VIDEO_ID}}" aria-label="Toista video: {{YOUTUBE_TITLE}}">
+      <img src="/assets/thumbs/{{VIDEO_ID}}.jpg" alt="{{IMAGE_ALT}}" width="1280" height="720">
+      <span class="video__play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.500v17l14-8.500z"/></svg>Toista video</span>
+    </a>
+    <div class="byline">
+      <p>Video julkaistu <time datetime="{{VIDEO_DATE}}">{{DATE_FI}}</time>, kesto {{DURATION}}</p>
+    </div>
+
+    <section class="summary">
+      <h2>Lyhyesti</h2>
+      <p>{{THREE_SENTENCE_ANSWER}}</p>
+    </section>
+
+    <section class="section" id="paikat">
+      <h2>Paikat videolla</h2>
+
+      <!-- ROUTE: repeat per route. For one list with no routes, drop the h3 and the dl, and make each stop name an h3. -->
+      <div class="route">
+        <h3>{{ROUTE_NAME}}</h3>
+        <dl class="facts">
+          <div><dt>Vaikeus</dt><dd>{{DIFFICULTY}}</dd></div>
+          <div><dt>Kesto</dt><dd>{{ROUTE_TIME}}</dd></div>
+          <div><dt>Matka</dt><dd>{{ROUTE_DISTANCE}}</dd></div>
+          <div><dt>Nousua</dt><dd>{{ROUTE_ASCENT}}</dd></div>
+        </dl>
+        <!-- Numbers continue across routes and follow the video's order. -->
+        <ol class="stops" start="1">
+          <!-- STOP: repeat per place. With no confirmed place, delete the address and the Maps button and say why in the note. -->
+          <li class="stop">
+            <span class="stop__no" aria-hidden="true">1</span>
+            <h4 class="stop__name">{{PLACE_NAME}}</h4>
+            <p class="stop__note">{{PLACE_NOTE}}</p>
+            <!-- SCREENSHOT: optional. Only after the user approved it in /screenshots. To use it, remove the comment markers. Otherwise delete it.
+            <img class="stop__img" src="/assets/shots/{{VIDEO_ID}}-{{PLACE_SLUG}}.jpg" alt="{{SHOT_ALT}}" width="1280" height="720" loading="lazy">
+            -->
+            <p class="stop__address">{{PLACE_ADDRESS}}</p>
+            <div class="stop__actions">
+              <a class="maps" href="{{MAPS_URL}}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7.500 7.500 0 0 0-7.500 7.500C4.500 15 12 22 12 22s7.500-7 7.500-12.500A7.500 7.500 0 0 0 12 2Zm0 10.250a2.750 2.750 0 1 1 0-5.500 2.750 2.750 0 0 1 0 5.500Z"/></svg>Avaa Google Mapsissa</a>
+              <a class="at" href="https://www.youtube.com/watch?v={{VIDEO_ID}}&amp;t={{SECONDS}}s">Videolla {{TIMESTAMP}}</a>
+            </div>
+            <!-- AFFILIATE: optional, only with a real link. If any stop uses it, keep the disclosure in the footer.
+            <p class="affiliate"><span class="affiliate__tag">Mainoslinkki:</span> <a href="{{AFFILIATE_URL}}" rel="sponsored nofollow noopener">{{AFFILIATE_LABEL}}</a></p>
+            -->
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section prose">
+      <!-- ARTICLE: follow the page structure in blog_writing_rules_and_guidelines.md. Every h2 is a question and the first sentence answers it. -->
+      <h2>{{QUESTION_HEADING}}</h2>
+      <p>{{ANSWER_IN_THE_FIRST_SENTENCE}}</p>
+      <!-- FLIGHTS: optional section. Only facts from lookups. No affiliate links unless the user supplied them.
+      <h2>Miten Chiang Maihin lennetään Suomesta?</h2>
+      <p>{{FLIGHT_TEXT}}</p>
+      <p><a href="{{FLIGHT_SEARCH_URL}}" rel="noopener">{{FLIGHT_LINK_LABEL}}</a>. Hinnat ja aikataulut vaihtelevat, joten tarkista ne hakua tehdessäsi.</p>
+      -->
+
+      <!-- HOTELS: optional section. Link to each hotel's own site and state only what that site says. With an affiliate link, keep the footer disclosure.
+      <h2>Missä kannattaa yöpyä Chiang Maissa?</h2>
+      <p>Nämä hotellit eivät ole videosta. Tiedot ovat hotellien omilta sivuilta, joten tarkista hinnat ja vapaat huoneet sieltä.</p>
+      <ul>
+        <li><a href="{{HOTEL_URL}}" rel="noopener">{{HOTEL_NAME}}</a>: {{HOTEL_FACT}}</li>
+      </ul>
+      -->
+      <p class="checked">Tiedot tarkistettu <time datetime="{{CHECKED_DATE}}">{{CHECKED_DATE_FI}}</time>. Hinnat, aukioloajat ja reitit voivat muuttua. Lue myös <a href="/vastuuvapaus/">vastuuvapauslauseke</a>.</p>
+    </section>
+
+    <section class="section">
+      <h2>Videon kappaleet</h2>
+      <ol class="chapters">
+        <!-- CHAPTER: repeat per chapter. -->
+        <li><a href="https://www.youtube.com/watch?v={{VIDEO_ID}}&amp;t={{SECONDS}}s">{{TIMESTAMP}}</a> <span>{{CHAPTER_NAME}}</span></li>
+      </ol>
+    </section>
+
+    <section class="section">
+      <h2>Katso myös</h2>
+      <ul class="videos">
+        <!-- RELATED: one to three cards. Choose by shared topic or place. -->
+        <li class="card">
+          <a class="card__link" href="{{RELATED_URL}}">
+            <img src="/assets/thumbs/{{RELATED_VIDEO_ID}}.jpg" alt="{{RELATED_ALT}}" width="1280" height="720" loading="lazy">
+            <h3>{{RELATED_TITLE}}</h3>
+            <p class="card__places">{{RELATED_PLACES}}</p>
+            <p class="card__date">{{RELATED_DATE}}</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <aside class="next">
+      <h2>Lisää reissuja</h2>
+      <p><a href="https://www.youtube.com/@ChiangMaiJani?sub_confirmation=1">Tilaa CMJani YouTubessa</a></p>
+      <p><a href="/">Katso kaikki videot ja paikat</a></p>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer">
+        <div class="footer__brand">
+          <a class="footer__wordmark" href="/">CMJani</a>
+          <p>Kaakkois-Aasian erikoistoimittaja. Pitäkää kädet waissa valmiina, sillä koko ajan tulee lisää!</p>
+        </div>
+        <nav aria-label="Sivusto">
+          <p class="footer__title">Sivusto</p>
+          <ul class="footer__list">
+            <li><a href="/#videot">Videot</a></li>
+            <li><a href="/jani/">Kuka on Jani?</a></li>
+            <li><a href="/en/" hreflang="en" lang="en">In English</a></li>
+          </ul>
+        </nav>
+        <div>
+          <p class="footer__title">Seuraa Jania</p>
+          <ul class="footer__list">
+            <li><a class="footer__social" href="https://www.youtube.com/@ChiangMaiJani" rel="me"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.500 6.200a3 3 0 0 0-2.100-2.100C19.500 3.500 12 3.500 12 3.500s-7.500 0-9.400.6A3 3 0 0 0 .5 6.200 31.300 31.300 0 0 0 0 12a31.300 31.300 0 0 0 .5 5.800 3 3 0 0 0 2.100 2.100c1.900.6 9.400.6 9.400.6s7.500 0 9.400-.6a3 3 0 0 0 2.100-2.100A31.300 31.300 0 0 0 24 12a31.300 31.300 0 0 0-.5-5.800ZM9.600 15.600V8.400l6.200 3.600z"/></svg>YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__legal">© 2026 CMJani. <a href="/tietosuoja/">Tietosuoja</a> <a href="/vastuuvapaus/">Vastuuvapaus</a></p>
+      <!-- DISCLOSURE: keep only if this page has affiliate links.
+      <p class="footer__legal">Tämä sivu sisältää mainoslinkkejä. Jos ostat niiden kautta, CMJani voi saada palkkion. Hinta ei muutu sinulle.</p>
+      -->
+    </div>
+  </footer>
+
+  <script src="/assets/site.js" defer></script>
+</body>
+</html>
